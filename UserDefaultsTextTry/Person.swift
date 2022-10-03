@@ -1,5 +1,5 @@
 //
-//  Model.swift
+//  Person.swift
 //  UserDefaultsTextTry
 //
 //  Created by Александр on 03.10.2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Person {
+struct Person: Codable {
     let name: String
     let surname: String
     
